@@ -3,6 +3,8 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Fitness</title>
+	<link rel="stylesheet" href="eric-meyer-reset.min_.css">
+	<link rel="stylesheet" href="normalize.css">
 	<link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -28,7 +30,7 @@
 					<a href="" class="link">Contact</a>
 				</li>
 			</ul>
-		</nav> 
+			</nav> 
 		</div>
 				<h1 class="title">Fitness in a can/</h1>
 		<h2 class="subtitle">Yes you can/</h2>
@@ -40,27 +42,27 @@
 		<ul class="menu1">
 			<li class="mainmenu-item">
 				<img src="images/icon1.svg">
-				<h2>Resources</h2>
-				<p>Easily manage your inspiration and work-in-progress by dragging images into projects and sharable client groups. Easily manage your inspiration and</p>
-				<a href="" class="link">Explore more</a>
+				<h2 class="mainmenu-title">Resources</h2>
+				<p class="mainmenu-text">Easily manage your inspiration and work-in-progress by dragging images into projects and sharable client groups. Easily manage your inspiration and</p>
+				<a href="" class="link">Explore more→</a>
 			</li>
 			<li class="mainmenu-item">
 				<img src="images/icon2.svg">
-				<h2>Training & Funding</h2>
-				<p>Easily manage your inspiration and work-in-progress by dragging images into projects and sharable client groups.</p>
-				<a href="" class="link">Browse training</a>
+				<h2 class="mainmenu-title">Training & Funding</h2>
+				<p class="mainmenu-text">Easily manage your inspiration and work-in-progress by dragging images into projects and sharable client groups.</p>
+				<a href="" class="link">Browse training→</a>
 			</li>
 			<li class="mainmenu-item">
 				<img src="images/icon3.svg">
-				<h2>Connect</h2>
-				<p>Easily manage your inspiration and work-in-progress by dragging images into projects and sharable client groups. Easily manage your inspiration.</p>
-				<a href="" class="link">Connect now</a>
+				<h2 class="mainmenu-title">Connect</h2>
+				<p class="mainmenu-text">Easily manage your inspiration and work-in-progress by dragging images into projects and sharable client groups. Easily manage your inspiration.</p>
+				<a href="" class="link">Connect now→</a>
 			</li>
 			<li class="mainmenu-item">
 				<img src="images/icon4.svg">
-				<h2>Communicate</h2>
-				<p>Easily manage your inspiration and work-in-progress by dragging images into projects and sharable client groups. Easily</p>
-				<a href="" class="link">Start now</a>
+				<h2 class="mainmenu-title">Communicate</h2>
+				<p class="mainmenu-text">Easily manage your inspiration and work-in-progress by dragging images into projects and sharable client groups. Easily</p>
+				<a href="" class="link">Start now→</a>
 			</li>
 		</ul>
 		<div class="menu2">
@@ -71,7 +73,13 @@
 				<p class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do elusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.</p>
 				<a href="" class="link2">Read more</a>	
 			</div>
-			<img src="images/img1.jpg">
+			<div class="hover">
+				<div class="text-hover">	
+					<h2 class="main-title">Fitness first</h2>
+					<h3 class="main-subtitle">It's all about</h3>
+				</div>
+				<img src="images/img1.jpg">
+			</div>
 		</div>
 		
 		<div class="menu2">
@@ -139,39 +147,47 @@
 	</div>
 	</main>
 
-	<footer>
-		<h3>Resources</h3>
-		<p>Easily manage your inspiration and work-in-progress by dragging images into projects and sharable client group</p>
-		<h3>About us</h3>
-		<p>Easily manage your inspiration and work-in-progress by dragging images into projects and sharable client group</p>
-		<h3>Stay in touch</h3>
-		<form>
-			<input type="text" placeholder="Your name">
-			<input type="text" placeholder="Your e-mail">
-			<button>Join newsletter</button>
+	<footer class="footer">
+		<div class="footer-item">
+			<div>
+			<h3 class="footer-title">Resources</h3>
+			<p class="footer-text">Easily manage your inspiration and work-in-progress by dragging images into projects and sharable client group</p>
+			</div>
+			<div>
+			<h3 class="footer-title">About us</h3>
+			<p class="footer-text">Easily manage your inspiration and work-in-progress by dragging images into projects and sharable client group</p>
+			</div>
+			<div>
+			<h3 class="footer-title">Stay in touch</h3>
+			<ul class="footer-menu">
+				<li>
+					<a href="">
+						<img src="images/fb.png">
+					</a>
+				</li>
+				<li>
+					<a href="">
+						<img src="images/tw.png">
+					</a>
+				</li>
+				<li>
+					<a href="">
+						<img src="images/yt.png">
+					</a>
+				</li>
+				<li>
+					<a href="">
+						<img src="images/ln.png">
+					</a>
+				</li>
+			</ul>
+			</div>
+		</div>
+		<form class="footer-form">
+			<input class="input" type="text" placeholder="Your name">
+			<input class="input" type="text" placeholder="Your e-mail">
+			<button class="button">Join newsletter</button>
 		</form>
-		<ul>
-			<li>
-				<a href="">
-					<img src="images/fb.png">
-				</a>
-			</li>
-			<li>
-				<a href="">
-					<img src="images/tw.png">
-				</a>
-			</li>
-			<li>
-				<a href="">
-					<img src="images/yt.png">
-				</a>
-			</li>
-			<li>
-				<a href="">
-					<img src="images/ln.png">
-				</a>
-			</li>
-		</ul>
 	</footer>
 </body>
 </html>

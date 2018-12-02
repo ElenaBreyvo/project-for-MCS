@@ -1,3 +1,42 @@
+@font-face {
+	src: url('fonts/Montserrat-Regular.ttf');
+	font-family: Montserrat;
+}
+
+@font-face {
+	src: url('fonts/OpenSans-Regular.ttf');
+	font-family: OpenSans;
+	font-weight: 400;
+}
+
+@font-face {
+	src: url('fonts/OpenSans-Bold.ttf');
+	font-family: OpenSans;
+	font-weight: 700;
+}
+
+@font-face {
+	src: url('fonts/OpenSans-Light.ttf');
+	font-family: OpenSans;
+	font-weight: 100;
+}
+
+@font-face {
+	src: url('fonts/ProximaNova-Reg.otf');
+	font-family: ProximaNova;
+}
+
+.mainmenu-title {
+	font-family: OpenSans, sans-serif;
+	font-weight: 400;
+	font-size: 24.04px;
+}
+
+.mainmenu-text {
+	font-family: ProximaNova, sans-serif;
+	font-size: 14.01px;
+}
+
 .shape {
 	display: flex;
 	justify-content: space-between;
@@ -7,28 +46,34 @@
 	font-size: 16px;
     color: #ffffff;
     padding: 0 150px;
+    font-family: OpenSans, sans-serif;
+	font-weight: 400;
 }
 
 .main3-title {
 	font-size: 45px;
     color: #ffffff;
+    font-family: OpenSans, sans-serif;
+	font-weight: 400;
 }
 
 .menu3title {
 	font-size: 40px;
     color: #ffffff;
+    font-family: OpenSans, sans-serif;
+	font-weight: 100;
 }
 
 .menu3text {
 	font-size: 13px;
     color: #ffffff;
+    font-family: OpenSans, sans-serif;
+	font-weight: 400;
 }
 
 .main-3 {
 	background-image: url('images/Layer 8.png'); 
-	height: 900px;
 	background-repeat: no-repeat;
-	background-size: contain;
 	text-align: center;
 	padding: 150px 300px;
 }
@@ -42,11 +87,14 @@
 .main-title {
 	font-size: 35px;
     color: #a2ca28;
+    font-family: OpenSans, sans-serif;
+	font-weight: 100;
 }
 
 .main-subtitle {
 	font-size: 14px;
     color: #fd634e;
+    font-family: Montserrat, sans-serif;
 }
 
 .menu2item {
@@ -60,11 +108,15 @@
 	background: #ffffff;
 	display: flex;
     justify-content: space-around;
+    width: 1180px;
+    margin: 0 auto;
 }
 
 .menu3 {
 	display: flex;
     text-align: left;
+    width: 1180px;
+    margin: 0 auto;
 }
 
 .menu3item1 {
@@ -83,14 +135,13 @@
 
 .mainmenu-item {
 	color: #ffffff;
-	list-style: none;
 }
 
 .menu1 {
 	display: flex;
     justify-content: space-around;
-    padding: 20px 50px;
-
+    width: 1180px;
+    margin: 0 auto;
 }
 
 .main-1 {
@@ -108,6 +159,8 @@
 	font-size: 15px;
 	text-transform: uppercase;
 	margin: 10px 0 0 30px;
+	font-family: OpenSans, sans-serif;
+	font-weight: 700;
 }
 
 .title {
@@ -115,11 +168,13 @@
 	font-size: 40px;
 	text-transform: uppercase;
 	margin: 500px 0 0 30px;
+	font-family: OpenSans, sans-serif;
+	font-weight: 100;
 }
 
 .background-image {
 	background-image: url('images/background.jpg');
-	height: 900px;
+	height: 875px;
 	background-repeat: no-repeat;
 	background-size: contain;
 }
@@ -130,11 +185,17 @@
 	padding: 30px 20px;
 }
 
+@font-face {
+	src: url('fonts/AvenirNextCyr-Regular.ttf');
+	font-family: AvenirNext;
+}
+
 .menu {
 	display: flex;
 	list-style: none;
 	width: 500px;
 	justify-content: space-between;
+	font-family: AvenirNext, sans-serif;
 }
 
 .menu-item {
@@ -148,17 +209,96 @@
 }
 
 .link2 {
-	color: #a2ca28
+	color: #a2ca28;
 	font-size: 14px;
-	text-decoration: none;
+	font-family: OpenSans, sans-serif;
+	font-weight: 400;
 }
 
 .text {
 	color: #656e74;
 	font-size: 14px;
+	font-family: OpenSans, sans-serif;
+	font-weight: 400;
 }
 
 .boldtext {
 	color: #ffffff;
 	font-size: 17px;
+	font-family: Montserrat, sans-serif;
+}
+
+.footer {
+	background-color: #0d1119;
+}
+
+.hover {
+	position: relative;
+}
+
+.hover:before {
+	content: '';
+	display: block;
+	background: rgb(0, 0, 0, 50%);
+	width: 794px;
+    height: 394px;
+	position: absolute;
+}
+
+.text-hover {
+	position: absolute;
+	left: 350px;
+	top: 150px;
+	text-align: center;
+}
+
+.footer-item {
+	display: flex;
+    justify-content: space-between;
+	padding: 100px 150px;
+	width: 1180px;
+    margin: 0 auto;
+}
+
+.footer-title{
+	color: #ffffff;
+	font-family: OpenSans, sans-serif;
+	font-weight: 400;
+}
+
+.footer-text {
+	color:#8297a7;
+	font-family: OpenSans, sans-serif;
+	font-weight: 400;
+}
+
+.footer-menu {
+	display: flex;
+	list-style: none;
+	width: 200px;
+	justify-content: space-between;
+}
+
+.footer-form {
+	height: 150px;
+    width: 1180px;
+    margin: 0 auto;
+    padding: 0 0 0 990px;
+}
+
+.input {
+	font-family: ProximaNova, sans-serif;
+	font-size: 14px;
+	color: #83969f;
+	border: 1px;
+    padding: 15px 10px;
+}
+
+.button {
+	background-color: #a2ca28;
+	color: #ffffff;
+	font-family: ProximaNova, sans-serif;
+	font-size: 15px;
+	border: 1px;
+    padding: 15px 10px;
 }
