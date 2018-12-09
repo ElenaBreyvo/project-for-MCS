@@ -99,9 +99,11 @@
 
 .menu2item {
 	background: #ffffff;
-    display: block;
-    text-align: center;
-    padding: 20px 50px;
+    display: flex;
+  	flex-direction: column;
+  	flex: 1 0 250px;
+  	padding: 0 25px 0 25px;
+  	text-align: center;
 }
 
 .menu2 {
@@ -174,9 +176,8 @@
 
 .background-image {
 	background-image: url('images/background.jpg');
-	height: 875px;
 	background-repeat: no-repeat;
-	background-size: contain;
+	background-position: center;
 }
 
 .header {
@@ -256,8 +257,7 @@
 	display: flex;
     justify-content: space-between;
 	padding: 100px 150px;
-	width: 1180px;
-    margin: 0 auto;
+	margin: 0 auto;
 }
 
 .footer-title{
@@ -281,7 +281,6 @@
 
 .footer-form {
 	height: 150px;
-    width: 1180px;
     margin: 0 auto;
     padding: 0 0 0 990px;
 }
@@ -301,4 +300,9 @@
 	font-size: 15px;
 	border: 1px;
     padding: 15px 10px;
+}
+
+.wrapper {
+  padding: 25px;
+  background: #a2ca28;
 }
