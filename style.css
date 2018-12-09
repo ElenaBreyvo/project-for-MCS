@@ -82,6 +82,7 @@
 	height: 350px;
     display: flex;
     justify-content: space-around;
+    padding: 0 200px;
 }
 
 .main-title {
@@ -102,23 +103,23 @@
     display: flex;
   	flex-direction: column;
   	flex: 1 0 250px;
-  	padding: 0 25px 0 25px;
+  	padding: 100px 25px 0 25px;
   	text-align: center;
 }
 
 .menu2 {
-	background: #ffffff;
+	background: #a2ca28;
 	display: flex;
     justify-content: space-around;
-    width: 1180px;
+    padding: 0 200px;
     margin: 0 auto;
 }
 
 .menu3 {
 	display: flex;
     text-align: left;
-    width: 1180px;
     margin: 0 auto;
+    padding: 0 200px;
 }
 
 .menu3item1 {
@@ -126,6 +127,7 @@
     display: block;
     text-align: left;
     padding: 50px 20px;
+    width: 2040px;
 }
 
 .menu3item2 {
@@ -153,7 +155,6 @@
 
 .main-2 {
 	background: #fd634e;
-	padding: 0 150px;
 }
 
 .subtitle {
@@ -235,29 +236,71 @@
 
 .hover {
 	position: relative;
+
+}
+
+.hover2 {
+	position: relative;
+
 }
 
 .hover:before {
 	content: '';
-	display: block;
+	opacity: 0;
 	background: rgb(0, 0, 0, 50%);
 	width: 794px;
     height: 394px;
 	position: absolute;
+	transition: all 2s;
 }
 
-.text-hover {
+.hover2:before {
+	content: '';
+	opacity: 0;
+	background: rgb(0, 0, 0, 50%);
+	width: 794px;
+    height: 394px;
 	position: absolute;
-	left: 350px;
-	top: 150px;
-	text-align: center;
+	transition: all 2s;
 }
 
-.footer-item {
+.hover:hover .text-hover {
+	opacity: 1;
+}
+
+.hover2:hover .text-hover {
+	opacity: 1;
+}
+.text-hover {
+	opacity: 0;
+	position: absolute;
+	width: 100%;
+	top: 50%;
+	text-align: center;
+	margin-top: -25px;
+	transition: all 2s;
+}
+
+.hover:hover:before {
+	opacity: 1;
+}
+
+.hover2:hover:before {
+	opacity: 1;
+}
+
+.footer-menu {
 	display: flex;
     justify-content: space-between;
 	padding: 100px 150px;
 	margin: 0 auto;
+}
+
+.footer-item {
+	display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    max-width: 500px;
 }
 
 .footer-title{
@@ -272,7 +315,7 @@
 	font-weight: 400;
 }
 
-.footer-menu {
+.social-media {
 	display: flex;
 	list-style: none;
 	width: 200px;
@@ -303,6 +346,9 @@
 }
 
 .wrapper {
-  padding: 25px;
-  background: #a2ca28;
+  
+}
+
+@keyframes MCSanimation {
+
 }
